@@ -1,0 +1,82 @@
+body{
+	font-size: 24px;
+	color: #fff;
+	background-color: #481e2f;
+	font-family: 'Akaya Kanadaka', cursive;
+}
+
+/**HEADER**/
+#header-nav{
+	background-color: #000;
+	border-radius: 0;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+
+}
+.navbar-brand{
+	padding-top: 15px;
+}
+.navbar-brand h1{
+	font-family: 'Cinzel', serif;
+	color: #78244c;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #ddd;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+	
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #78244c;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+
+}/**End of Header**/
+
+/**Main body**/
+#main-content h2{
+	margin-bottom: 25px;
+	font-size: 150%;
+}
+.row .box{
+	padding: 10px;
+	margin: 5px;
+	font-size: 20px;
+	color: #481e2f;
+	background-color: #f3e0dc;
+
+}
+.heading{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: #3b945e;
+}
+.description{
+	font-family: 'Dancing Script', cursive;	
+}/**End of Main body**/
+
+/**Mobile View(Extra small)**/
+@media (max-width: 767px){
+  #nav-list{
+  	padding-top: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #3b945e;
+	background-color: #f5e6cc;
+	border: 5px solid #3b945e;
+	overflow: none;
+	}
+	hr{
+	border-top: 5px solid #3b945e;
+	}
+}
